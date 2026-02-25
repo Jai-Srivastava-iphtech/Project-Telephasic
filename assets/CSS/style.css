@@ -2307,8 +2307,8 @@ button:hover,
   color: #fff;
 }
 /* Add this to your CSS */
-#nav > ul > li:hover > span,
-#nav > ul > li:hover > a {
+#nav > ul > li:has(ul):hover > span,
+#nav > ul > li:has(ul):hover > a {
   border-color: rgba(255, 255, 255, 0.75);
   background-color: rgba(255, 255, 255, 0.15);
   color: #fff;
